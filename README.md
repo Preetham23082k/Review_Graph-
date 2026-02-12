@@ -52,3 +52,22 @@ Graph embeddings allow us to encode this structure numerically.
 
 # ⚙️ Complete Pipeline
 
+Raw Reviews
+↓
+Triple Extraction (spaCy - SVO)
+↓
+Text Normalization + Filtering
+↓
+Sentiment Scoring (VADER)
+↓
+Knowledge Graph Construction (NetworkX)
+↓
+Push to Neo4j
+↓
+Graph Projection (GDS)
+↓
+Node2Vec Embeddings
+↓
+Feature Engineering
+↓
+Machine Learning Models
